@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: line-menswear-store
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: ADMIN_PASSWORD
+        generateValue: true

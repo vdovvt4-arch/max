@@ -1,0 +1,12 @@
+{
+  "name": "line-fashion-store",
+  "version": "1.0.0",
+  "description": "متجر أزياء لاين الإلكتروني - نظام متكامل لإدارة الملابس والطلبات",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
